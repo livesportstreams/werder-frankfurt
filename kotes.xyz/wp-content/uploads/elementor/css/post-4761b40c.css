@@ -1,0 +1,62 @@
+.elementor-4761 .elementor-element.elementor-element-4bbc504:not(.elementor-motion-effects-element-type-background), .elementor-4761 .elementor-element.elementor-element-4bbc504 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#1F1F1F;}.elementor-4761 .elementor-element.elementor-element-4bbc504{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-4761 .elementor-element.elementor-element-4bbc504 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-bc-flex-widget .elementor-4761 .elementor-element.elementor-element-40a116a.elementor-column .elementor-column-wrap{align-items:center;}.elementor-4761 .elementor-element.elementor-element-40a116a.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-4761 .elementor-element.elementor-element-9f3b3ef .elementor-heading-title{color:#FFFFFF;font-family:"Catamaran", Sans-serif;font-size:25px;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-menu-toggle{margin-left:auto;background-color:rgba(2, 1, 1, 0);font-size:24px;border-width:0px;border-radius:0px;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu .elementor-item{font-family:"Catamaran", Sans-serif;font-size:15px;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--main .elementor-item{color:#FFFFFF;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--main .elementor-item:hover,
+					.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--main .elementor-item.elementor-item-active,
+					.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--main .elementor-item.highlighted,
+					.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--main .elementor-item:focus{color:#D2000C;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--main .elementor-item.elementor-item-active{color:#D2000C;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--dropdown a, .elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-menu-toggle{color:#FFFFFF;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--dropdown{background-color:#1F1F1F;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--dropdown .elementor-item, .elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--dropdown  .elementor-sub-item{font-family:"Catamaran", Sans-serif;}.elementor-4761 .elementor-element.elementor-element-cea38bf div.elementor-menu-toggle{color:#FFFFFF;}.elementor-4761 .elementor-element.elementor-element-d61e45d{margin-top:40px;margin-bottom:0px;}.elementor-4761 .elementor-element.elementor-element-d76d24a{margin-top:0px;margin-bottom:40px;}.elementor-4761 .elementor-element.elementor-element-acc5ae5{text-align:center;}.elementor-4761 .elementor-element.elementor-element-acc5ae5 .elementor-heading-title{color:#C5C6C7;font-family:"Catamaran", Sans-serif;font-size:18px;font-weight:400;}body.elementor-page-4761 h1.entry-title, .elementor-page-title{display:none;}body.elementor-page-4761:not(.elementor-motion-effects-element-type-background), body.elementor-page-4761 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#1F1F1F;}@media(max-width:767px){.elementor-4761 .elementor-element.elementor-element-40a116a{width:50%;}.elementor-4761 .elementor-element.elementor-element-91b5c1b{width:50%;}.elementor-bc-flex-widget .elementor-4761 .elementor-element.elementor-element-91b5c1b.elementor-column .elementor-column-wrap{align-items:center;}.elementor-4761 .elementor-element.elementor-element-91b5c1b.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--dropdown .elementor-item, .elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--dropdown  .elementor-sub-item{font-size:16px;}.elementor-4761 .elementor-element.elementor-element-cea38bf .elementor-nav-menu--dropdown a{padding-left:0px;padding-right:0px;padding-top:13px;padding-bottom:13px;}.elementor-4761 .elementor-element.elementor-element-cea38bf > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-4761 .elementor-element.elementor-element-cea38bf{width:100%;max-width:100%;}}@media(max-width:1024px) and (min-width:768px){.elementor-4761 .elementor-element.elementor-element-40a116a{width:20%;}.elementor-4761 .elementor-element.elementor-element-91b5c1b{width:80%;}}/* Start custom CSS for html, class: .elementor-element-aef3ee9 */#player {
+	width: 100%;
+}
+
+video::-webkit-media-controls-current-time-display, video::-webkit-media-controls-time-remaining-display, video::-webkit-media-controls-timeline, video::-webkit-media-controls-mute-button {
+	display: none !important;
+}
+
+video::-internal-media-controls-download-button {
+	display: none !important;
+}
+
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video {
+	object-fit: cover;
+	object-position: top;
+}
+
+.video-container {
+	position: relative;
+}
+
+.play-button {
+    border: 2px solid;
+	  line-height: 67px;
+    z-index: 9;
+    padding: 0;
+    border-radius: 35px;
+		width: 70px;
+    height: 70px;
+    font-size: 25px;
+		background: rgba(255,255,255,.5);
+    color: #fff;
+    border-color: rgba(255,255,255,0) !important;
+	cursor: pointer;
+	position:absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+}
+
+.play-button:hover {
+	background: #D2000C!important;
+    color: #111!important;
+    border-color: #D2000C!important;
+}
+
+.play-button i {
+	width: 70px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.play-button {
+		display: none;
+	}
+}/* End custom CSS */
