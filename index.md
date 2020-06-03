@@ -256,7 +256,6 @@ var pp = {"ajax_url":"http:\/\/kotes.xyz\/wp-admin\/admin-ajax.php","is_cart":""
                 width="100%"
                 height="auto"
                 controlsList="nodownload"
-                poster="https://image.tmdb.org/t/p/original/<?php%20echo%20explode("/", $images)[1]; ?>"
         >
             <source src="http://yourmovies.xyz/wp-content/uploads/2020/05/videoplay.mp4" type="video/mp4" />
         </video>
