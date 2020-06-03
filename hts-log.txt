@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 03 Jun 2020 15:42:58 at http://kotes.xyz/football +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://kotes.xyz/football -O1 "C:\Users\admin\Desktop\Web Scraping\lp" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:42:59	Warning: 	Note: due to kotes.xyz remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+15:45:22	Warning: 	Moved Permanently for kotes.xyz/?p=4761
+15:45:22	Warning: 	File has moved from kotes.xyz/?p=4761 to http://kotes.xyz/football/
+15:45:22	Warning: 	File not parsed, looks like binary: kotes.xyz/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.6.2
+15:45:22	Warning: 	File not parsed, looks like binary: kotes.xyz/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2
+15:45:23	Warning: 	File not parsed, looks like binary: kotes.xyz/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2
+15:45:23	Warning: 	File not parsed, looks like binary: kotes.xyz/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 26 seconds : 99 links scanned, 97 files written (6965025 bytes overall) [5318858 bytes received at 36430 bytes/sec], 2111026 bytes transferred using HTTP compression in 55 files, ratio 20%, 3.1 requests per connection
+(No errors, 7 warnings, 0 messages)

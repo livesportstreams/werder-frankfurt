@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+kotes.xyz	TRUE	/	FALSE	1999999999	wp_woocommerce_session_fb8cdd67a558f5de7c06448241e4e3ef	66fd7741a655557f6c05bfb6c709381b%7C%7C1591364578%7C%7C1591360978%7C%7C207cd69a339ccbb53d324442b19907f9
+
